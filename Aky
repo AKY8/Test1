@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Titlul Paginii</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .header {
+            text-align: center;
+            padding: 20px;
+        }
+        .game {
+            margin-bottom: 20px;
+            border-bottom: 1px solid grey;
+            padding-bottom: 20px;
+        }
+        .game img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Bine ai venit pe Site-ul Meu de Jocuri</h1>
+        </div>
+        
+        <!-- Sectiune pentru un joc -->
+        <div class="game">
+            <h2>Numele Jocului</h2>
+            <p>Descrierea scurtă a jocului aici.</p>
+            <img src="link_la_imagine.jpg" alt="Imagine Joc">
+            <!-- Link pentru descărcare sau mai multe informații -->
+            <a href="link_undeva.html">Mai multe despre joc</a>
+        </div>
+
+        <!-- Repetă sectiunea pentru alte jocuri -->
+    </div>
+</body>
+</html>
